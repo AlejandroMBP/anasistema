@@ -31,9 +31,10 @@
                                             d="M8.60156 15.2001H13.4016C13.879 15.2001 14.3368 15.0105 14.6744 14.6729C15.0119 14.3353 15.2016 13.8775 15.2016 13.4001V8.6001H8.60156V15.2001Z">
                                         </path>
                                     </svg></span><span class="menu-bar__name">Dashboard</span></span></a></li>
-                    <li class="{{ Route::is('prueba') ? 'active' : '' }}"><a href="{{ route('prueba') }}"><span
-                                class="menu-bar__text"><span class="nftmax-menu-icon nftmax-svg-icon__v2"><svg
-                                        class="nftmax-svg-icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <li class="{{ Route::is('tipos.index') ? 'active' : '' }}"><a
+                            href="{{ route('tipos.index') }}"><span class="menu-bar__text"><span
+                                    class="nftmax-menu-icon nftmax-svg-icon__v2"><svg class="nftmax-svg-icon"
+                                        viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M8.40093 8.39892C8.07534 8.74593 7.8023 9.13874 7.59052 9.56484L13.3422 15.3165C13.4732 15.4475 13.651 15.5211 13.8362 15.5211C14.0215 15.5211 14.1992 15.4475 14.3303 15.3165L15.3185 14.3283C15.3834 14.2634 15.4349 14.1864 15.47 14.1016C15.5052 14.0168 15.5232 13.9259 15.5232 13.8342C15.5232 13.7424 15.5052 13.6515 15.47 13.5667C15.4349 13.482 15.3834 13.4049 15.3185 13.34L9.56685 7.5899C9.13999 7.79984 8.74699 8.07254 8.40093 8.39892Z">
                                         </path>
@@ -48,9 +49,10 @@
                                         </path>
                                     </svg></span><span class="menu-bar__name">Tipos de documento</span><span
                                     class="menu-bar__count nft-gr-primary">19</span></span></a></li>
-                    <li class="{{ Route::is('prueba') ? 'active' : '' }}"><a href="{{ route('prueba') }}"><span
-                                class="menu-bar__text"><span class="nftmax-menu-icon nftmax-svg-icon__v2"><svg
-                                        class="nftmax-svg-icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <li class="{{ Route::is('cardago.index') ? 'active' : '' }}"><a
+                            href="{{ route('cargado.index') }}"><span class="menu-bar__text"><span
+                                    class="nftmax-menu-icon nftmax-svg-icon__v2"><svg class="nftmax-svg-icon"
+                                        viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M8.40093 8.39892C8.07534 8.74593 7.8023 9.13874 7.59052 9.56484L13.3422 15.3165C13.4732 15.4475 13.651 15.5211 13.8362 15.5211C14.0215 15.5211 14.1992 15.4475 14.3303 15.3165L15.3185 14.3283C15.3834 14.2634 15.4349 14.1864 15.47 14.1016C15.5052 14.0168 15.5232 13.9259 15.5232 13.8342C15.5232 13.7424 15.5052 13.6515 15.47 13.5667C15.4349 13.482 15.3834 13.4049 15.3185 13.34L9.56685 7.5899C9.13999 7.79984 8.74699 8.07254 8.40093 8.39892Z">
                                         </path>
@@ -63,7 +65,7 @@
                                         <path
                                             d="M1.48209 6.42236L0.49401 7.41044C0.221159 7.68329 0.221159 8.12567 0.49401 8.39852L4.44633 12.3508C4.71919 12.6237 5.16156 12.6237 5.43441 12.3508L6.4225 11.3628C6.69535 11.0899 6.69535 10.6475 6.4225 10.3747L2.47017 6.42236C2.19732 6.14951 1.75494 6.14951 1.48209 6.42236Z">
                                         </path>
-                                    </svg></span><span class="menu-bar__name">cargado de documento</span><span
+                                    </svg></span><span class="menu-bar__name">Cargado de documento</span><span
                                     class="menu-bar__count nft-gr-primary">19</span></span></a></li>
                     <li><a href="my-wallet.html"><span class="menu-bar__text"><span
                                     class="nftmax-menu-icon nftmax-svg-icon__v4"><svg class="nftmax-svg-icon"
